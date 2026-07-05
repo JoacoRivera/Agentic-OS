@@ -1,0 +1,32 @@
+{
+  "name": "agentic-os",
+  "version": "0.1.0",
+  "description": "Model-agnostic Agentic OS workflow skills for maintaining the LLM wiki, guardrails, evals, and verification discipline.",
+  "author": {
+    "name": "Agentic OS"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "agentic-os",
+    "llm-wiki",
+    "skills",
+    "workflow"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agentic OS",
+    "shortDescription": "LLM wiki and workflow guardrail skills",
+    "longDescription": "Agentic OS skills for querying and maintaining the repository wiki, running report-only guardrails, checking verification discipline, and planning or implementing changes.",
+    "developerName": "Agentic OS",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $aos-query-memory to summarize what Agentic OS already knows.",
+      "Use $aos-plan to plan an Agentic OS change.",
+      "Use $aos-implement to implement an Agentic OS change."
+    ]
+  }
+}

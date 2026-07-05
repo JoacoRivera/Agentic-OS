@@ -1,0 +1,19 @@
+# Obsidian local workspace state
+.obsidian/workspace.json
+.obsidian/workspace.json.bak
+.obsidian/workspace-mobile.json
+
+# Obsidian installed plugin code/dependencies
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/manifest.json
+
+# Obsidian plugin local state/cache
+.obsidian/plugins/*/data.json
+
+# Local dashboard scratch area
+inbox/
+
+# Python generated files
+__pycache__/
+*.py[cod]
